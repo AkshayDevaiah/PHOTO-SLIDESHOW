@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.pic{
+font-size: 10rem;
+cursor: pointer;
+user-select: none;
+
+}
+.open{
+    display: none;
+}
+
+ .saqi{
+    max-width: 100;
+    display: none;
+}
+.dev{
+    display: none;
+}
+.closed{
+    display: none;
+} 
+
+.active{
+    display:block;
+}
